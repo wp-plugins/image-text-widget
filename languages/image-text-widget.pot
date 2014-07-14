@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Image & Text Widget\n"
+"POT-Creation-Date: 2014-07-08 18:39+0100\n"
+"PO-Revision-Date: 2014-07-08 18:39+0100\n"
+"Last-Translator: Bartosz Arendt <info@dfactory.eu>\n"
+"Language-Team: dFactory <info@dfactory.pl>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;__;_e;esc_attr__;esc_attr_e;"
+"_n:1,2;_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../image-text-widget.php:111 ../includes/widget.php:174
+msgid "Select image"
+msgstr ""
+
+#: ../image-text-widget.php:112
+msgid "Add image"
+msgstr ""
+
+#: ../includes/widget.php:19
+msgid "Image & Text Widget"
+msgstr ""
+
+#: ../includes/widget.php:21
+msgid "Displays image and text"
+msgstr ""
+
+#: ../includes/widget.php:43
+msgid "plain"
+msgstr ""
+
+#: ../includes/widget.php:44
+msgid "auto br"
+msgstr ""
+
+#: ../includes/widget.php:45
+msgid "HTML"
+msgstr ""
+
+#: ../includes/widget.php:49 ../includes/widget.php:60
+msgid "none"
+msgstr ""
+
+#: ../includes/widget.php:50
+msgid "custom"
+msgstr ""
+
+#: ../includes/widget.php:51
+msgid "page"
+msgstr ""
+
+#: ../includes/widget.php:55
+msgid "same window"
+msgstr ""
+
+#: ../includes/widget.php:56
+msgid "new window"
+msgstr ""
+
+#: ../includes/widget.php:61
+msgid "left"
+msgstr ""
+
+#: ../includes/widget.php:62
+msgid "center"
+msgstr ""
+
+#: ../includes/widget.php:63
+msgid "right"
+msgstr ""
+
+#: ../includes/widget.php:64
+msgid "justify"
+msgstr ""
+
+#: ../includes/widget.php:168
+msgid "Title"
+msgstr ""
+
+#: ../includes/widget.php:170
+msgid "Image"
+msgstr ""
+
+#: ../includes/widget.php:175
+msgid "Remove image"
+msgstr ""
+
+#: ../includes/widget.php:182
+msgid "Responsive"
+msgstr ""
+
+#: ../includes/widget.php:183
+msgid "Text"
+msgstr ""
+
+#: ../includes/widget.php:185
+msgid "Text type"
+msgstr ""
+
+#: ../includes/widget.php:196
+msgid "Link type"
+msgstr ""
+
+#: ../includes/widget.php:211
+msgid "Link page"
+msgstr ""
+
+#: ../includes/widget.php:242
+msgid "Custom URL"
+msgstr ""
+
+#: ../includes/widget.php:246
+msgid "Link target"
+msgstr ""
+
+#: ../includes/widget.php:257
+msgid "Size"
+msgstr ""
+
+#: ../includes/widget.php:272
+msgid "Custom width"
+msgstr ""
+
+#: ../includes/widget.php:274
+msgid "Custom height"
+msgstr ""
+
+#: ../includes/widget.php:278
+msgid "Image align"
+msgstr ""
+
+#: ../includes/widget.php:290
+msgid "Text align"
+msgstr ""

@@ -1,0 +1,674 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Image & Text Widget\n"
+"POT-Creation-Date: 2014-07-08 18:44+0100\n"
+"PO-Revision-Date: 2014-07-08 18:44+0100\n"
+"Last-Translator: Bartosz Arendt <info@dfactory.eu>\n"
+"Language-Team: dFactory <info@dfactory.pl>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;__;_e;esc_attr__;esc_attr_e;"
+"_n:1,2;_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../image-text-widget.php:111 ../includes/widget.php:174
+msgid "Select image"
+msgstr "Wybierz obrazek"
+
+#: ../image-text-widget.php:112
+msgid "Add image"
+msgstr "Dodaj obrazek"
+
+#: ../includes/widget.php:19
+msgid "Image & Text Widget"
+msgstr "Obrazek i Tekst"
+
+#: ../includes/widget.php:21
+msgid "Displays image and text"
+msgstr "Wyświetla obrazek i tekst"
+
+#: ../includes/widget.php:43
+msgid "plain"
+msgstr "czysty tekst"
+
+#: ../includes/widget.php:44
+msgid "auto br"
+msgstr "automatyczne akapity"
+
+#: ../includes/widget.php:45
+msgid "HTML"
+msgstr "HTML"
+
+#: ../includes/widget.php:49 ../includes/widget.php:60
+msgid "none"
+msgstr "brak"
+
+#: ../includes/widget.php:50
+msgid "custom"
+msgstr "własny"
+
+#: ../includes/widget.php:51
+msgid "page"
+msgstr "do strony"
+
+#: ../includes/widget.php:55
+msgid "same window"
+msgstr "w tym samym oknie"
+
+#: ../includes/widget.php:56
+msgid "new window"
+msgstr "w nowym oknie"
+
+#: ../includes/widget.php:61
+msgid "left"
+msgstr "do lewej"
+
+#: ../includes/widget.php:62
+msgid "center"
+msgstr "do śroka"
+
+#: ../includes/widget.php:63
+msgid "right"
+msgstr "do prawej"
+
+#: ../includes/widget.php:64
+msgid "justify"
+msgstr "wyjustowany"
+
+#: ../includes/widget.php:168
+msgid "Title"
+msgstr "Tytuł"
+
+#: ../includes/widget.php:170
+msgid "Image"
+msgstr "Obrazek"
+
+#: ../includes/widget.php:175
+msgid "Remove image"
+msgstr "Usuń obrazek"
+
+#: ../includes/widget.php:182
+msgid "Responsive"
+msgstr "Responsywny"
+
+#: ../includes/widget.php:183
+msgid "Text"
+msgstr "Tekst"
+
+#: ../includes/widget.php:185
+msgid "Text type"
+msgstr "Rodzaj tekstu"
+
+#: ../includes/widget.php:196
+msgid "Link type"
+msgstr "Rodzaj linka"
+
+#: ../includes/widget.php:211
+msgid "Link page"
+msgstr "Link do strony"
+
+#: ../includes/widget.php:242
+msgid "Custom URL"
+msgstr "Własny URL"
+
+#: ../includes/widget.php:246
+msgid "Link target"
+msgstr "Cel linka"
+
+#: ../includes/widget.php:257
+msgid "Size"
+msgstr "Rozmiar"
+
+#: ../includes/widget.php:272
+msgid "Custom width"
+msgstr "Własna szerokość"
+
+#: ../includes/widget.php:274
+msgid "Custom height"
+msgstr "Własna wysokość"
+
+#: ../includes/widget.php:278
+msgid "Image align"
+msgstr "Wyrównanie obrazka"
+
+#: ../includes/widget.php:290
+msgid "Text align"
+msgstr "Wyrównanie tekstu"
+
+#~ msgctxt "taxonomy general name"
+#~ msgid "News Categories"
+#~ msgstr "Kategorie aktualności"
+
+#~ msgctxt "taxonomy singular name"
+#~ msgid "News Category"
+#~ msgstr "Kategoria aktualności"
+
+#~ msgid "Search News Categories"
+#~ msgstr "Szukaj w kategoriach aktualności"
+
+#~ msgid "All News Categories"
+#~ msgstr "Wszystkie kategorie aktualności"
+
+#~ msgid "Parent News Category"
+#~ msgstr "Nadrzędna kategoria aktualności"
+
+#~ msgid "Parent News Category:"
+#~ msgstr "Nadrzędna kategoria aktualności:"
+
+#~ msgid "Edit News Category"
+#~ msgstr "Edytuj kategorię aktualności"
+
+#~ msgid "View News Category"
+#~ msgstr "Zobacz kategorię aktualności"
+
+#~ msgid "Update News Category"
+#~ msgstr "Aktualizuj kategorię aktualności"
+
+#~ msgid "Add New News Category"
+#~ msgstr "Dodaj nową kategorię aktualności"
+
+#~ msgid "New News Category Name"
+#~ msgstr "Dodaj nazwę nowej kategorii aktualności"
+
+#~ msgid "News Categories"
+#~ msgstr "Kategorie aktualności"
+
+#~ msgctxt "taxonomy general name"
+#~ msgid "News Tags"
+#~ msgstr "Tagi aktualności"
+
+#~ msgctxt "taxonomy singular name"
+#~ msgid "News Tag"
+#~ msgstr "Tag aktualności"
+
+#~ msgid "Search News Tags"
+#~ msgstr "Szukaj w tagach aktualności"
+
+#~ msgid "Popular News Tags"
+#~ msgstr "Popularne tagi aktualności"
+
+#~ msgid "All News Tags"
+#~ msgstr "Wszystkie tagi aktualności"
+
+#~ msgid "Edit News Tag"
+#~ msgstr "Edytuj tag aktualności"
+
+#~ msgid "Update News Tag"
+#~ msgstr "Aktualizuj tag aktualności"
+
+#~ msgid "Add New News Tag"
+#~ msgstr "Dodaj nowy tag aktualności"
+
+#~ msgid "New News Tag Name"
+#~ msgstr "Nazwa nowego taga aktualności"
+
+#~ msgid "Separate news tags with commas"
+#~ msgstr "Oddziel kolejne tagi aktualności przecinkami"
+
+#~ msgid "Add or remove news tags"
+#~ msgstr "Dodaj lub usuń tagi aktualności"
+
+#~ msgid "Choose from the most used news tags"
+#~ msgstr "Wybierz spośród najpopularniejszych tagów aktualności"
+
+#~ msgid "News Tags"
+#~ msgstr "Tagi aktualności"
+
+#~ msgctxt "post type general name"
+#~ msgid "News"
+#~ msgstr "Aktualności"
+
+#~ msgctxt "post type singular name"
+#~ msgid "News"
+#~ msgstr "Aktualność"
+
+#~ msgid "News"
+#~ msgstr "Aktualności"
+
+#~ msgid "All News"
+#~ msgstr "Wszystkie aktualności"
+
+#~ msgid "Add New News"
+#~ msgstr "Dodaj nową aktualność"
+
+#~ msgid "Edit News"
+#~ msgstr "Edytuj aktualność"
+
+#~ msgid "New News"
+#~ msgstr "Nowa aktualność"
+
+#~ msgid "View News"
+#~ msgstr "Zobacz aktualność"
+
+#~ msgid "News Archive"
+#~ msgstr "Archiwum aktualności"
+
+#~ msgid "Search News"
+#~ msgstr "Szukaj aktualności"
+
+#~ msgid "No news found"
+#~ msgstr "Nie znaleziono żadnych aktualności"
+
+#~ msgid "No news found in trash"
+#~ msgstr "Nie znaleziono żadnych aktualności w koszu"
+
+#~ msgid "News updated. <a href=\"%s\">View news</a>"
+#~ msgstr ""
+#~ "Aktualność została zaktualizowana. <a href=\"%s\">Zobacz aktualność</a>"
+
+#~ msgid "Custom field updated."
+#~ msgstr "Własne pole zostało zaktualizowane."
+
+#~ msgid "Custom field deleted."
+#~ msgstr "Własne pole zostało zaktualizowane."
+
+#~ msgid "News updated."
+#~ msgstr "Aktualność została zaktualizowana."
+
+#~ msgid "News restored to revision from %s"
+#~ msgstr "Aktualność została przywrócona do wersji z %s"
+
+#~ msgid "News published. <a href=\"%s\">View news</a>"
+#~ msgstr ""
+#~ "Aktualność została opublikowana. <a href=\"%s\">Zobacz aktualność</a>"
+
+#~ msgid "News saved."
+#~ msgstr "Aktualność została zapisana."
+
+#~ msgid "News submitted. <a target=\"_blank\" href=\"%s\">Preview news</a>"
+#~ msgstr ""
+#~ "Aktualność została dodana. <a target=\"_blank\" href=\"%s\">Podejrzyj "
+#~ "aktualność</a>"
+
+#~ msgid ""
+#~ "News scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+#~ "\"%2$s\">Preview news</a>"
+#~ msgstr ""
+#~ "Aktualność została zaplanowana na: <strong>%1$s</strong>. <a target="
+#~ "\"_blank\" href=\"%2$s\">Podejrzyj aktualność</a>"
+
+#~ msgid "M j, Y @ G:i"
+#~ msgstr "M j, Y @ G:i"
+
+#~ msgid ""
+#~ "News draft updated. <a target=\"_blank\" href=\"%s\">Preview news</a>"
+#~ msgstr ""
+#~ "Szkic aktualności został zaktualizowany. <a target=\"_blank\" href=\"%s"
+#~ "\">Podejrzyj aktualność</a>"
+
+#~ msgid "Are you sure you want to reset these settings to defaults?"
+#~ msgstr "Czy jesteś pewny, że chcesz zresetować te ustawienia do domyślnych?"
+
+#~ msgid "Support"
+#~ msgstr "Pomoc"
+
+#~ msgid "No News"
+#~ msgstr "Brak aktualności"
+
+#~ msgid "This post is password protected."
+#~ msgstr "Ten wpis jest strzeżóny hasłem."
+
+#~ msgid "Enable"
+#~ msgstr "Włącz"
+
+#~ msgid "Disable"
+#~ msgstr "Wyłącz"
+
+#~ msgid "Tags dedicated for news post type only."
+#~ msgstr "Tagi dedykowane tylko dla aktualności."
+
+#~ msgid "Tags"
+#~ msgstr "Tagi"
+
+#~ msgid "Default WordPress tags, same as for posts."
+#~ msgstr "Domyślne tagi WordPressa, takie jak dla wpisów."
+
+#~ msgid "Categories dedicated for news post type only."
+#~ msgstr "Kategorie dedykowane tylko dla aktualności."
+
+#~ msgid "Categories"
+#~ msgstr "Kategorie"
+
+#~ msgid "Default WordPress categories, same as for posts."
+#~ msgstr "Domyślne kategorie WordPressa, takie jak dla wpisów."
+
+#~ msgid "title"
+#~ msgstr "tytuł"
+
+#~ msgid "editor"
+#~ msgstr "edytor"
+
+#~ msgid "author"
+#~ msgstr "autor"
+
+#~ msgid "thumbnail"
+#~ msgstr "miniatura"
+
+#~ msgid "excerpt"
+#~ msgstr "wypis"
+
+#~ msgid "comments"
+#~ msgstr "komentarze"
+
+#~ msgid "trackbacks"
+#~ msgstr "trackbacki"
+
+#~ msgid "revisions"
+#~ msgstr "wersje wpisów"
+
+#~ msgid "General settings saved."
+#~ msgstr "Ustawienia ogólne zostały zapisane."
+
+#~ msgid "Capabilities settings saved."
+#~ msgstr "Ustawienia uprawnień zostały zapisane."
+
+#~ msgid "Permalinks settings saved."
+#~ msgstr "Ustawienia odnośników zostały zapisane."
+
+#~ msgid "General settings restored to defaults."
+#~ msgstr "Ustawienia ogólne zostały przywrócone do domyślnych."
+
+#~ msgid "Capabilities settings restored to defaults."
+#~ msgstr "Ustawienia uprawnień zostały przywrócone do domyślnych."
+
+#~ msgid "Permalinks settings restored to defaults."
+#~ msgstr "Ustawienia odnośników zostały przywrócone do domyślnych."
+
+#~ msgid "Such menu does not exist."
+#~ msgstr "Takie menu nie istnieje."
+
+#~ msgid "Menu name can not be empty."
+#~ msgstr "Nazwa menu nie może być pusta."
+
+#~ msgid "General"
+#~ msgstr "Ogólne"
+
+#~ msgid "Capabilities"
+#~ msgstr "Uprawnienia"
+
+#~ msgid "Permalinks"
+#~ msgstr "Odnośniki"
+
+#~ msgid "Tag prefix"
+#~ msgstr "Prefix dla tagów"
+
+#~ msgid "Category prefix"
+#~ msgstr "Prefix dla kategorii"
+
+#~ msgid "Publish News"
+#~ msgstr "Publikowanie wydarzeń"
+
+#~ msgid "Edit Others News"
+#~ msgstr "Edytowanie wydarzeń innych"
+
+#~ msgid "Edit Published News"
+#~ msgstr "Edytowanie opublikowanych wydarzeń"
+
+#~ msgid "Delete Published News"
+#~ msgstr "Usuwanie opublikowanych wydarzeń"
+
+#~ msgid "Delete News"
+#~ msgstr "Usuwanie wydarzeń"
+
+#~ msgid "Delete Others News"
+#~ msgstr "Usuwanie wydarzeń innych"
+
+#~ msgid "Read Private News"
+#~ msgstr "Czytanie prywatnych wydarzeń"
+
+#~ msgid "Manage News Categories"
+#~ msgstr "Zarządzenie kategoriami wydarzeń"
+
+#~ msgid "Manage News Tags"
+#~ msgstr "Zarządzanie tagami wydarzeń"
+
+#~ msgid "Settings"
+#~ msgstr "Ustawienia"
+
+#~ msgid "News Manager"
+#~ msgstr "Aktualności"
+
+#~ msgid "Reset to defaults"
+#~ msgstr "Przywróć do domyślnych"
+
+#~ msgid "Need support?"
+#~ msgstr "Potrzebujesz pomocy?"
+
+#~ msgid ""
+#~ "If you are having problems with this plugin, please talk about them in the"
+#~ msgstr "Jeśli masz jakiekolwiek problemy z tą wtyczką, napisz o nich na"
+
+#~ msgid "Support forum"
+#~ msgstr "Forum pomocy"
+
+#~ msgid "Do you like this plugin?"
+#~ msgstr "Lubisz tę wtyczkę?"
+
+#~ msgid "Rate it 5"
+#~ msgstr "Oceń ją na 5"
+
+#~ msgid "on WordPress.org"
+#~ msgstr "na WordPress.org"
+
+#~ msgid "Blog about it & link to the"
+#~ msgstr "Napisz o niej i dodaj link do"
+
+#~ msgid "Check out our other"
+#~ msgstr "Sprawdź nasze inne"
+
+#~ msgid "WordPress plugins"
+#~ msgstr "wtyczki do WordPressa"
+
+#~ msgid "Created by"
+#~ msgstr "Stworzone przez"
+
+#~ msgid "General settings"
+#~ msgstr "Ustawienia ogólne"
+
+#~ msgid "News features support"
+#~ msgstr "Funkcjonalności aktualności"
+
+#~ msgid "Use Tags"
+#~ msgstr "Tagi aktualności"
+
+#~ msgid "Use Categories"
+#~ msgstr "Kategorie aktualności"
+
+#~ msgid "News in RSS"
+#~ msgstr "Aktualności w RSS"
+
+#~ msgid "News in Tags & Categories"
+#~ msgstr "Aktualności w tagach i kategoriach"
+
+#~ msgid "Show link in menu"
+#~ msgstr "Wyświetlanie linku w menu"
+
+#~ msgid "Date and time format"
+#~ msgstr "Format daty i godziny"
+
+#~ msgid "First day of week"
+#~ msgstr "Pierwszy dzień tygodnia"
+
+#~ msgid "Delete plugin settings on deactivation"
+#~ msgstr "Usuwanie danych wtyczki po deaktywacji"
+
+#~ msgid "Capabilities settings"
+#~ msgstr "Ustawienia uprawnień"
+
+#~ msgid "Permalinks settings"
+#~ msgstr "Ustawienia bezpośrednich odnośników"
+
+#~ msgid "Single News prefix"
+#~ msgstr "Prefix dla pojedynczych wydarzeń"
+
+#~ msgid "Select which features would you like to enable for your news."
+#~ msgstr "Wybierz które funkcjonalności chcesz włączyć dla aktualności."
+
+#~ msgid ""
+#~ "Select if you want to automatically add news archive link to nav menu."
+#~ msgstr ""
+#~ "Wybierz czy chcesz do menu automatycznie dodawać link do archiwum "
+#~ "aktualności."
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgid "Note: there is no menu to which you could add news archive link."
+#~ msgstr "Uwaga: nie istnieje menu do którego można by dodać link."
+
+#~ msgid "Date"
+#~ msgstr "Data"
+
+#~ msgid "Time"
+#~ msgstr "Godzina"
+
+#~ msgid "Enter your preffered date and time formatting."
+#~ msgstr "Podaj preferowany sposób formatowania daty."
+
+#~ msgid "Select preffered first day of the week for the calendar display."
+#~ msgstr "Wybierz jaki dzień będzie pierwszym dniem tygodnia w kalendarzu."
+
+#~ msgid "Enable if you want to use News Categories."
+#~ msgstr "Włącz tę opcję, jeśli chcesz korzystać z kategorii aktualności."
+
+#~ msgid "Include news post type in main RSS feed."
+#~ msgstr "Dodaj aktualności to głównego kanału RSS strony."
+
+#~ msgid ""
+#~ "By default Category and Tags archive pages include only default posts. "
+#~ "Enable this if you want to display News (news post type) alongside posts."
+#~ msgstr ""
+#~ "Domyślnie, archiwa kategorii i tagów zawierają wyłącznie wpisy (post). "
+#~ "Włącz tę opcję, jeśli razem z wpisami na stronach tagów i kategorii "
+#~ "chcesz wyświetlić także aktualności."
+
+#~ msgid "Enable if you want to use News Tags."
+#~ msgstr "Włącz tę opcję, jeśli chcesz korzystać z tagów aktualności."
+
+#~ msgid "Enable if you want all plugin data to be deleted on deactivation."
+#~ msgstr ""
+#~ "Włącz tę opcję, jeśli chcesz usunąć wszystkie dane wtyczki przy jej "
+#~ "deaktywacji."
+
+#~ msgid "General News root slug to prefix all your news pages with."
+#~ msgstr ""
+#~ "Główna ścieżka do aktualności, która będzie poprzedzać wszystkie strony z "
+#~ "związane aktualnościami. "
+
+#~ msgid "News Tags archive page slug."
+#~ msgstr "Odnośnik do tagów aktualności. "
+
+#~ msgid "News Categories archive page slug."
+#~ msgstr "Odnośnik do kategorii aktualności. "
+
+#~ msgid ""
+#~ "Do you want to prefix your news with the news category or news tag it "
+#~ "belongs to.<br /><strong>Notice:</strong> This is an experimental feature "
+#~ "and may not work on some permalink configurations."
+#~ msgstr ""
+#~ "Czy chcesz aby aktualności zawierały prefix w postaci kategorii lub tagu, "
+#~ "do którego należą? <br /><strong>Uwaga:</strong> Ta funkcja jest mocno "
+#~ "eksperymentalna i może nie działać poprawnie przy niektórych ustawieniach "
+#~ "odnośników."
+
+#~ msgid "Role"
+#~ msgstr "Rola"
+
+#~ msgid "None"
+#~ msgstr "Brak"
+
+#~ msgid "News Archives"
+#~ msgstr "Archiwa aktualności"
+
+#~ msgid "Displays news archives"
+#~ msgstr "Wyświetla archiwa aktualności"
+
+#~ msgid "Monthly"
+#~ msgstr "Miesięczne"
+
+#~ msgid "Yearly"
+#~ msgstr "Roczne"
+
+#~ msgid "Ascending"
+#~ msgstr "Malejąco"
+
+#~ msgid "Descending"
+#~ msgstr "Rosnąco"
+
+#~ msgid "Display as dropdown"
+#~ msgstr "Wyświetl jako rozwijaną listę"
+
+#~ msgid "Show number of news"
+#~ msgstr "Wyświetl liczbę aktualności"
+
+#~ msgid "Display Type"
+#~ msgstr "Sposób wyświetlania"
+
+#~ msgid "Order"
+#~ msgstr "Kolejność"
+
+#~ msgid "Limit"
+#~ msgstr "Limit"
+
+#~ msgid "News Calendar"
+#~ msgstr "Kalendarz aktualności"
+
+#~ msgid "all"
+#~ msgstr "wszystkie"
+
+#~ msgid "Highlight weekends"
+#~ msgstr "Podkreślanie weekendów"
+
+#~ msgid "News List"
+#~ msgstr "Lista aktualności"
+
+#~ msgid "Displays a list of news"
+#~ msgstr "Wyświetla listę aktualności"
+
+#~ msgid "Publish date"
+#~ msgstr "Data publikacji"
+
+#~ msgid "Number of news"
+#~ msgstr "Liczba aktualności"
+
+#~ msgid "Order by"
+#~ msgstr "Sortowanie wg"
+
+#~ msgid "Display news thumbnail"
+#~ msgstr "Wyświetl miniaturę"
+
+#~ msgid "Display news excerpt"
+#~ msgstr "Wyświetl wypis"
+
+#~ msgid "No news message"
+#~ msgstr "Komunikat przy braku aktualności"
+
+#~ msgid "Date format"
+#~ msgstr "Format daty"
+
+#~ msgid "Time format"
+#~ msgstr "Format godziny"
+
+#~ msgid "Displays a list of news tags"
+#~ msgstr "Wyświetla listę tagów aktualności"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Name"
+#~ msgstr "Tytuł"
+
+#~ msgid "Show hierarchy"
+#~ msgstr "Pokaż hierarchię"
+
+#~ msgid "Hide empty"
+#~ msgstr "Ukryj puste"
+
+#~ msgid "Displays a list of news categories"
+#~ msgstr "Wyświetla listę kategorii aktualności"
