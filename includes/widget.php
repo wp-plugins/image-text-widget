@@ -145,8 +145,8 @@ class Image_Text_Widget extends WP_Widget
 		$alt = apply_filters('itw_widget_image_alt', (string)get_post_meta($instance['image_id'], '_wp_attachment_image_alt', TRUE), $instance);
 
 		$html = $args['before_widget'].$title;
-		$html .= '<div class="widget-content">'.($href !== '' ? '<a href="'.$href.'"'.($instance['link_target'] === 'new' ? ' target="_blank"' : '').'>' : '').'<img src="'.$image[0].'" width="'.$width.'" height="'.$height.'" title="'.$image_title.'" alt="'.$alt.'"'.$image_align.' />'.($href !== '' ? '</a>' : '');
-		$html .= '<span'.$text_align.'>'.$text.'</span></div>';
+		$html .= '<div class="widget-content">'.($href !== '' ? '<a href="'.$href.'"'.($instance['link_target'] === 'new' ? ' target="_blank"' : '').'>' : '').'<img class="image-text-widget-image" src="'.$image[0].'" width="'.$width.'" height="'.$height.'" title="'.$image_title.'" alt="'.$alt.'"'.$image_align.' />'.($href !== '' ? '</a>' : '');
+		$html .= '<div class="image-text-widget-text"'.$text_align.'>'.$text.'</div></div>';
 		$html .= $args['after_widget'];
 
 		echo apply_filters('itw_widget_html', $html, $instance);
@@ -298,8 +298,6 @@ class Image_Text_Widget extends WP_Widget
 
 		$html .= '
 			</select>
-			
-			<p class="df-link">'.__('Created by', 'image-text-widget').' <a href="http://www.dfactory.eu/?utm_source=image-text-widget&utm_medium=link&utm_campaign=created-by" target="_blank" title="dFactory - Quality plugins for WordPress"><img src="'.IMAGE_TEXT_WIDGET_URL.'/images/logo-dfactory.png'.'" title="dFactory - Quality plugins for WordPress" alt="dFactory - Quality plugins for WordPress" /></a></p>
 		
 		</div>';
 
