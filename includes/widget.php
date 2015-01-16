@@ -4,6 +4,7 @@ if(!defined('ABSPATH'))	exit; //exit if accessed directly
 class Image_Text_Widget extends WP_Widget
 {
 	private $itw_defaults = array();
+	private $itw_image_positions = array();
 	private $itw_text_types = array();
 	private $itw_link_types = array();
 	private $itw_link_targets = array();
@@ -26,6 +27,7 @@ class Image_Text_Widget extends WP_Widget
 			'title' => '',
 			'image_id' => 0,
 			'image_align' => 'none',
+			'image_position' => 'above_text',
 			'text_align' => 'none',
 			'text' => '',
 			'text_type' => 'plain',
@@ -37,6 +39,11 @@ class Image_Text_Widget extends WP_Widget
 			'size_custom_width' => 220,
 			'size_custom_height' => 140,
 			'responsive' => TRUE
+		);
+		
+		$this->itw_image_positions = array(
+			'above_text' => __('Above the text', 'image-text-widget'),
+			'below_text' => __('Below the text', 'image-text-widget')
 		);
 
 		$this->itw_text_types = array(
@@ -135,6 +142,7 @@ class Image_Text_Widget extends WP_Widget
 		
 		$text = apply_filters('itw_widget_text', $instance['text']);
 		$image = apply_filters('itw_widget_image', $image, $instance);
+		$image_position = apply_filters('itw_widget_image_position', $instance['image_position'], $instance);
 		$href = apply_filters('itw_widget_link', $href, $instance);
 		$text_align = apply_filters('itw_widget_text_align', $text_align, $instance);
 		$image_align = apply_filters('itw_widget_align_image', $image_align, $instance);
@@ -145,8 +153,18 @@ class Image_Text_Widget extends WP_Widget
 		$alt = apply_filters('itw_widget_image_alt', (string)get_post_meta($instance['image_id'], '_wp_attachment_image_alt', TRUE), $instance);
 
 		$html = $args['before_widget'].$title;
-		$html .= '<div class="widget-content">'.($href !== '' ? '<a href="'.$href.'"'.($instance['link_target'] === 'new' ? ' target="_blank"' : '').'>' : '').'<img src="'.$image[0].'" width="'.$width.'" height="'.$height.'" title="'.$image_title.'" alt="'.$alt.'"'.$image_align.' />'.($href !== '' ? '</a>' : '');
-		$html .= '<span'.$text_align.'>'.$text.'</span></div>';
+		$html .= '<div class="widget-content">';
+		if($image_position === 'above_text')
+		{
+			$html .= ($href !== '' ? '<a href="'.$href.'"'.($instance['link_target'] === 'new' ? ' target="_blank"' : '').'>' : '').'<img class="image-text-widget-image" src="'.$image[0].'" width="'.$width.'" height="'.$height.'" title="'.$image_title.'" alt="'.$alt.'"'.$image_align.' />'.($href !== '' ? '</a>' : '');
+			$html .= '<div class="image-text-widget-text"'.$text_align.'>'.$text.'</div>';
+		}
+		elseif($image_position === 'below_text')
+		{
+			$html .= '<div class="image-text-widget-text"'.$text_align.'>'.$text.'</div>';
+			$html .= ($href !== '' ? '<a href="'.$href.'"'.($instance['link_target'] === 'new' ? ' target="_blank"' : '').'>' : '').'<img class="image-text-widget-image" src="'.$image[0].'" width="'.$width.'" height="'.$height.'" title="'.$image_title.'" alt="'.$alt.'"'.$image_align.' />'.($href !== '' ? '</a>' : '');
+		}
+		$html .= '</div>';
 		$html .= $args['after_widget'];
 
 		echo apply_filters('itw_widget_html', $html, $instance);
@@ -274,7 +292,20 @@ class Image_Text_Widget extends WP_Widget
 					<p class="label">'.__('Custom height', 'image-text-widget').'</p>
 					<input id="'.$this->get_field_id('size_custom_height').'" type="text" name="'.$this->get_field_name('size_custom_height').'" value="'.(isset($instance['size_custom_height']) ? $instance['size_custom_height'] : $this->itw_defaults['size_custom_height']).'" />
 				</div>
-			</div>
+			</div>';
+			
+		$html .= '
+			<p class="label">'.__('Image position', 'image-text-widget').'</p>
+			<select id="'.$this->get_field_id('image_position').'" name="'.$this->get_field_name('image_position').'">';
+
+		foreach($this->itw_image_positions as $id => $image_position)
+		{
+			$html .= '
+				<option value="'.esc_attr($id).'" '.selected($id, (isset($instance['image_position']) ? $instance['image_position'] : $this->itw_defaults['image_position']), FALSE).'>'.$image_position.'</option>';
+		}
+			
+		$html .= '
+			</select>
 			<p class="label">'.__('Image align', 'image-text-widget').'</p>
 			<select id="'.$this->get_field_id('image_align').'" name="'.$this->get_field_name('image_align').'">';
 
@@ -298,8 +329,6 @@ class Image_Text_Widget extends WP_Widget
 
 		$html .= '
 			</select>
-			
-			<p class="df-link">'.__('Created by', 'image-text-widget').' <a href="http://www.dfactory.eu/?utm_source=image-text-widget&utm_medium=link&utm_campaign=created-by" target="_blank" title="dFactory - Quality plugins for WordPress"><img src="'.IMAGE_TEXT_WIDGET_URL.'/images/logo-dfactory.png'.'" title="dFactory - Quality plugins for WordPress" alt="dFactory - Quality plugins for WordPress" /></a></p>
 		
 		</div>';
 
@@ -314,6 +343,9 @@ class Image_Text_Widget extends WP_Widget
 
 		//image
 		$old_instance['image_id'] = (int)(isset($new_instance['image_id']) ? $new_instance['image_id'] : $this->itw_defaults['image_id']);
+		
+		//image position
+		$old_instance['image_position'] = (isset($new_instance['image_position']) && in_array($new_instance['image_position'], array_keys($this->itw_image_positions), TRUE) ? $new_instance['image_position'] : $this->itw_defaults['image_position']);
 
 		//title
 		$old_instance['title'] = sanitize_text_field(isset($new_instance['title']) ? $new_instance['title'] : $this->itw_defaults['title']);

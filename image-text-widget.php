@@ -2,7 +2,7 @@
 /*
 Plugin Name: Image & Text Widget
 Description: Image & Text Widget is an easy to use plugin that uses the native WordPress media manager to add image & text widgets to your site.
-Version: 1.0.0
+Version: 1.0.2
 Author: dFactory
 Author URI: http://www.dfactory.eu/
 Plugin URI: http://www.dfactory.eu/plugins/image-text-widget/
@@ -31,7 +31,7 @@ new Image_Text_Widget_Plugin();
 class Image_Text_Widget_Plugin
 {
 	private $defaults = array(
-		'version' => '1.0.0'
+		'version' => '1.0.2'
 	);
 
 
