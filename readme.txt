@@ -3,8 +3,8 @@ Contributors: dfactory
 Donate link: http://www.dfactory.eu/
 Tags: image, text, widget, widgets, images, upload, uploader, HTML, widget-only, responsive
 Requires at least: 3.5
-Tested up to: 4.1.0
-Stable tag: 1.0.2
+Tested up to: 4.2.1
+Stable tag: 1.0.3
 License: MIT License
 License URI: http://opensource.org/licenses/MIT
 
@@ -50,6 +50,9 @@ No questions yet.
 
 == Changelog ==
 
+= 1.0.3 =
+* Tweak: Use full size image preview if thumbnail is not available
+
 = 1.0.2 =
 * New: Ability to move image above or below the text 
 * New: Hebrew translation, thanks to [Ahrale Shrem](http://atar4u.com/)
@@ -62,6 +65,5 @@ Initial release
 
 == Upgrade Notice ==
 
-= 1.0.2 =
-* New: Ability to move image above or below the text 
-* New: Hebrew translation, thanks to [Ahrale Shrem](http://atar4u.com/)
+= 1.0.3 =
+* Tweak: Use full size image preview if thumbnail is not available
